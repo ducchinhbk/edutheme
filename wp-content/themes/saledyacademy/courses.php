@@ -3,207 +3,221 @@
  * The template for portfolio page.
  *
  **/
- // Template Name: Portfolio
+ // Template Name: Courses
 ?>
 
 <?php get_header(); ?>
-<header class="st-navbar not-home">
-			<nav class="navbar navbar-default navbar-fixed-top clearfix" role="navigation">
-				<div class="container"><!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sept-main-nav">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/photos/logo3.png" alt="" class="img-responsive"></a>
-					</div>
-					
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse main-nav" id="sept-main-nav">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="<?php echo site_url(); ?>">Home</a></li>
-							<li><a href="<?php echo site_url(); ?>/about">About us</a></li>
-							<li><a href="<?php echo site_url(); ?>/services">Services</a></li>
-							<li class="active"><a href="<?php echo site_url(); ?>/portfolio">Portfolio</a></li>
-							<li><a href="<?php echo site_url(); ?>/contact">Contact Us</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div>
-			</nav>
-</header>
-<section class="reel_i">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="wrap">
-						  <blockquote class="citation">
-							<p>
-							  Our mission is to deliver amazing results 
-							  <br>
-							  by unlocking opportunities for our clients and our employees simultaneously.
-							</p>
-						  </blockquote>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="portfolio" id="portfolio">
-			<div class="container-fluid ">
-				<div class="row">
-					<div class="col-md-12 no-padding ">
-						<div class="section-title st-center">
-							<h1>Portfolio</h1>
-							<p>What we have done</p>
-							<span>This is a sample collection of our projects. Please contact us for a more detailed portfolio that is closely related to your business.</span>
-						</div>
-						<div class="filter mb40">
-							<form id="filter">
-							<fieldset class="group">
-								<label class="btn btn-default btn-main"><input type="radio" name="filter" value="all" checked="checked"/>All</label>
-								<label class="btn btn-default"><input type="radio" name="filter" value="development"/>Web/App Development</label>
-								<label class="btn btn-default"><input type="radio" name="filter" value="digital"/>Digital Marketing</label>
-								<label class="btn btn-default"><input type="radio" name="filter" value="brand"/>Branding - Graphic Design</label>
-							</fieldset>
-							</form><!-- #filter -->
-						</div><!-- .filter .mb40 -->
+<main id="program">
+    <section class="center-align no-pad-bot">
+        <h3 class="container">Cuemath is the only program that makes<br> every aspect of learning math engaging<br> and meaningful.</h3>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/cuemath-illustration.png"><br><br>
+        <a href="#" class="cta-btn btn-flat cuemath-yellow white-text" style="margin: 1rem 0;">FIND A CENTER</a>
+    </section>
+    <section id="program-learning-system" class="illustration">
+        <div class="row container">
+           <div class="col-sm-offset-1 col-sm-10">
+                <div>
+                    <h3 class="right-align hide-on-small-only" style="padding-right:3rem;">CUEMATH LEARNING SYSTEM</h3>
+                    <div class="info-container">
+                        <div>
+                            <h4 class="hide-on-med-and-up">CUEMATH LEARNING SYSTEM</h4>
+                            <p>Children are taken on a math adventure through a combination of worksheets, tab-based exercises and mathematical puzzle cards.<br><br>
+                                These aspects are brought together at a center near you, where a trained and certified teacher personally facilitates your child's learning.<br><br>
+                            Children benefit from the best of the offline as well as online worlds with three in-person sessions every week.</p>
+                        </div>
+                        <img alt="CUEMATH LEARNING SYSTEM" src="<?php echo get_template_directory_uri(); ?>/images/program-learning-system.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="program-curriculum" class="illustration cuemath-grey">
+        <div class="row container">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div>
+                    <h3 class="hide-on-small-only" style="padding-left:3rem;">CUEMATH CURRICULUM</h3>
+                    <div class="info-container">
+                        <div>
+                            <h4 class="hide-on-med-and-up">CUEMATH CURRICULUM</h4>
+                            <p>A research-backed curriculum that portrays math in a meaningful way and makes it relevant to your child.<br><br>
+                            Goes above and beyond what is covered in schools or any other math programs.<br><br>
+                            Covers concepts, builds mathematical aptitude and focusses on critical and analytical thinking.</p>
+                        </div>
+                        <img alt="CUEMATH CURRICULUM" src="<?php echo get_template_directory_uri(); ?>/images/program-curriculum.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="cta-btn btn-flat cuemath-yellow white-text">FIND A CENTER</a>
+    </section>
+    <div class="divider"></div>
+    <section id="cgb">
+        <div class="container">
+            <h3 class="center-align">CUEMATH GOES BEYOND<br>EVERY OTHER MATH PROGRAM</h3>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="section1 center-align" style="border-color:#40c4ff;">
+                        <img alt="School math" src="<?php echo get_template_directory_uri(); ?>/images/school-math-illustration.png">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="section2 center-align" style="border-color:#ffc000;">
+                        <img alt="Mental Aptitude" src="<?php echo get_template_directory_uri(); ?>/images/mental-aptitude-illustration.png">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="section3 center-align" style="border-color:#909090;">
+                        <img alt="Creative Reasoning" src="<?php echo get_template_directory_uri(); ?>/images/creative-reasoning-illustration.png">
+                    </div>
+                </div>
+            </div>
 
-						<div class="grid">
-							<figure class="portfolio-item" data-groups='["development"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-1.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["digital"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-2.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["development"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-3.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["digital"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-4.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["digital"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-5.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["development"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-6.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["brand"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-7.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["developmentdevelopment"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-8.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["brand"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-9.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["brand"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-10.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["digital"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-11.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-							<figure class="portfolio-item" data-groups='["digital"]'>
-								<img src="<?php echo get_template_directory_uri(); ?>/images/portfolio/portfolio-12.png" alt=""/>
-								<figcaption>
-									<h2>Nice <span>Lily</span></h2>
-									<p>Lily likes to play with crayons and pencils</p>
-								</figcaption>
-							</figure>
-						</div>
+            <div id="program-school-math" class="illustration section">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-10">
+                        <div>
+                            <div class="info-container">
+                                <div>
+                                    <h4 class="hide-on-med-and-up">School Math</h4>
+                                    <p>Covers the entire curriculum of the CBSE, ICSE and State Boards. Also draws on the US Common Core, UK National and Singapore National Curricula.<br><br>
+                                Delivered through specially created workbooks that employ the active learning methodology.<br><br>
+                                At the end of each topic, there will be a tab-based assessment which helps guide the child's further learning.</p>
+                                </div>
+                                <img alt="School math" src="<?php echo get_template_directory_uri(); ?>/images/program-school-math.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="call-us">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3>If you like to work with us</h3>
-						<a href="contact.html" class="btn btn-default-o btn-lg">Call Us Now</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="contact" id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title st-center">
-							<p>Drop us a line</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<form class="contact-form" role="form">
-							<input type="text" class="form-control" id="fname" name="fname" placeholder="Full Name">
-							<input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
-							<input type="text" class="form-control" id="subj" name="subj" placeholder="Subject">
-							<textarea id="mssg" name="mssg" placeholder="Your Message" class="form-control" rows="10"></textarea>
-							<button class="btn btn-main btn-lg" type="submit" id="send" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Sending..."><i class="fa fa-paper-plane "></i> Send</button>
-						</form>
-						<div id="result-message" role="alert"></div>
-					</div>
-					<div class="col-md-6">
-						<p>We are ready to hear more about your project. Contact us today so we can learn more about you, your company and how we can help you meet your goals.</p>
-						<address>
-							<strong>HO CHI MINH CITY.</strong><br>
-								Etown 3 building, floor 9
-								364 Cong Hoa Street,
-								Tan Binh District,
-								Ho Chi Minh City, Vietnam<br>
-							<abbr title="Phone">P:</abbr> (+84) 933741702
-						</address>
-					</div>
-				</div>
-			</div>
-</section>
+            <div id="program-mental-aptitude" class="illustration section">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-10">
+                        <div class="info-container">
+                            <div>
+                                <h4 class="hide-on-med-and-up">Mental Aptitude</h4>
+                                <p>Builds mathematical thinking by improving verbal, non-verbal, logical and calculation skills.<br><br>
+                                Structured as a series of game-like tab based exercises that students have to master.<br><br>
+                                Mastering each skill requires increasing level of accuracy and proficiency.</p>
+                            </div>
+                            <img alt="Mental Aptitude" src="<?php echo get_template_directory_uri(); ?>/images/program-mental-aptitude.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="program-creative-reasoning" class="illustration section">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-10">
+                        <div class="info-container">
+                            <div>
+                                <h4 class="hide-on-med-and-up">Creative Reasoning</h4>
+                                <p>Develops out-of-the-box thinking through mathematical puzzles. Helps build connections between different domains of math and real life.<br><br>
+                                At the end of each session, a card with a puzzle on it is assigned to your child.<br><br>
+                                He/She will be encouraged to work on it collaboratively with friends, parents and siblings.</p>
+                            </div>
+                            <img alt="Creative Reasoning" src="<?php echo get_template_directory_uri(); ?>/images/program-creative-reasoning.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="/parent/signup/" class="cta-btn btn-flat cuemath-yellow white-text">FIND A CENTER</a>
+    </section>
+
+    <section id="program-cueparent" class="illustration cuemath-grey">
+        <div class="row container">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div>
+                    <h3 class="right-align hide-on-small-only" style="padding-right:3rem;">CUEPARENT APP</h3>
+                    <div class="info-container">
+                        <div>
+                            <h4 class="hide-on-med-and-up">CUEPARENT APP</h4>
+                            <p>Designed to help you take active part in your child's learning.<br><br>
+                            Track their math adventure and help them build on their strengths and work on their weaknesses.<br><br>
+                            Get access to puzzles, questions and other math resources to help build a mathematical bond with your child.</p>
+                        </div>
+                        <img alt="Cueparent App" src="<?php echo get_template_directory_uri(); ?>/images/program-cueparent.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="cta-btn btn-flat cuemath-yellow white-text">FIND A CENTER</a>
+    </section>
+    <div class="divider"></div>
+    <section id="program-teachers" class="illustration">
+        <div class="row container">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div>
+                    <h3 class="hide-on-small-only" style="padding-left:3rem;">CUEMATH TEACHERS</h3>
+                    <div class="info-container">
+                        <div>
+                            <h4 class="hide-on-med-and-up">CUEMATH TEACHERS</h4>
+                            <p>
+                            <strong>Educated</strong><br>
+                             We only accept applications of individuals from well-educated background.<br><br>
+                             <strong>Trained</strong><br>
+                            Cuemath teachers undergo an intensive training program to ensure that they deliver the best education.<br><br>
+                            <strong>Certified</strong><br>
+                            Only after excelling in the training process are the teachers certified to teach the Cuemath program.
+                            </p>
+                        </div>
+                        <img alt="CUEMATH TEACHERS" src="<?php echo get_template_directory_uri(); ?>/images/program-teachers.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faqs" class="container">
+        <h3 class="center-align">FAQs</h3>
+        <h5 class="center-align">Still not convinced? Wish to know more<br> about the Cuemath program? Please go through the frequently asked questions.</h5>
+        <br>
+                
+        <div class="item-container">
+            <div class="row">
+                <div class="col-xs-1 center-align"><i class="material-icons cuemath-yellow-text">chat_bubble</i></div>
+                <div class="col-xs-11">What is the duration of the program?</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-1 col-xs-11"><p class="answer" style="font-weight:300;">The Cuemath program runs through the year and caters to students in every grade from K through 8. Each Cuemath student attends three 1-hour sessions a week. But given the flexibility of our program, it adapts itself to the student's pace rather than moulding the student to fit its predetermined boundaries.</p></div>
+            </div>
+        </div>
+                
+        <div class="item-container">
+            <div class="row">
+                <div class="col-xs-1 center-align"><i class="material-icons cuemath-yellow-text">chat_bubble</i></div>
+                <div class="col-xs-11">How many students are there in a Cuemath session?</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-1 col-xs-11"><p class="answer" style="font-weight:300;">There are at most 8 students in a group. It is our wish to ensure that every one of our students is able to ask for and get "personal attention".</p></div>
+            </div>
+        </div>
+                
+        <div class="item-container">
+            <div class="row">
+                <div class="col-xs-1 center-align"><i class="material-icons cuemath-yellow-text">chat_bubble</i></div>
+                <div class="col-xs-11">Does Cuemath provide any assessments to the students?</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-1 col-xs-11"><p class="answer" style="font-weight:300;">Yes, periodic assessments are part of the program. However, the intention of these assessments is not simply to "pass" or "fail" students, but rather to give the teacher enough information to help guide the student's learning. Additionally, all progress reports are shared with the parents who are encouraged to approach the teacher with their questions or suggestions.</p></div>
+            </div>
+        </div>
+                
+        <div class="item-container">
+            <div class="row">
+                <div class="col-xs-1 center-align"><i class="material-icons cuemath-yellow-text">chat_bubble</i></div>
+                <div class="col-xs-11">How is Cuemath different from home based tuitions?</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-1 col-xs-11"><p class="answer" style="font-weight:300;">We wish to emphasize that Cuemath is not a tuition. Instead, it is an (after-school) math-learning programme. In consequence, while home-based tuitions focus primarily on the school syllabus (or syllabi) and preparing students for their tests and exams, Cuemath's eye is fixed firmly on the long-term holistic development of a child's mathematical ability.</p></div>
+            </div>
+        </div>
+                
+        <h5 class="center-align"><a href="#" class="grey-text" style="text-decoration: underline;">View More</a></h5><br>
+        <h4 class="center-align">Join us in our endeavour to make every<br> kid smarter at math. Enroll your child now.</h4>
+    </section>
+</main>
 
 <?php get_footer(); ?>
