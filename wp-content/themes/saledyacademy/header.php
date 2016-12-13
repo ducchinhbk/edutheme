@@ -19,7 +19,7 @@
     <?php } else{?>
         <meta name="description" content="<?php bloginfo('name'); ?>"/>
         <meta name="keywords" content="<?php bloginfo('keyword'); ?>"/>
-		<meta property="og:site_name" content="SALEDYMEDIA.COM">
+		<meta property="og:site_name" content="SALEDYMEDIA.COM"/>
 		<meta property="og:description" content="<?php bloginfo('name'); ?>" />
         <meta property="og:title" content="<?php bloginfo('name'); ?>" />
         <meta property="og:type" content="website" />
@@ -42,10 +42,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'/>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,100' rel='stylesheet' type='text/css'/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css"/>
     
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
     
@@ -60,41 +58,4 @@
     <?php wp_head(); ?>
     <style>html{margin-top: 0 !important;}</style>
     </head>
-    <!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <body>
-        
-        <header id="header">
-                    
-            <nav>
-                <div class="nav-wrapper container">
-                    <a class="logo" href="/">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"/>
-                    </a>
-                    <a href="#" data-activates="mobile-menu" class="button-collapse">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down" id="desktop-menu">
-                        <li  class="active-nav" ><a href="/">Home</a></li>
-                        <li ><a href="/program/">Program</a></li>
-                        <li ><a href="/about/">About Us</a></li>
-                        <li ><a href="/teacher/login/">Login</a></li>
-                        <li class="nav-btn"><a href="/parent/signup/" class="header-cta find-center" style="border-color: #ffc000; margin-right:10px; margin-left:5px;">Find a Center</a></li>
-                        <li class="nav-btn"><a href="/teacher/" class="header-cta become-teacher" style="border-color: #40c4ff;">Become a Teacher</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-menu">
-                        <li  class="active" ><a href="/">Home</a></li>
-                        <li ><a href="/program/">Program</a></li>
-                        <li ><a href="/about/">About Us</a></li> 
-                        <li ><a href="/contact/">Contact Us</a></li>
-                        <li><a href="/parent/signup/">Find a Center</a></li>
-                        <li><a href="/teacher/">Become a Teacher</a></li>
-                        <li ><a href="/blog">Blog</a></li>
-                        <li ><a href="/faqs/">FAQs</a></li>
-                        <li ><a href="/teacher/login/">Login</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-		
+   

@@ -8,5 +8,6 @@ Version: 1.0
 
 */
 
-@import url(css/materialize.css);
-@import url(css/styles.css);
+@import url(css/component.min.css);
+@import url(css/custom-course.css);
+@import url(css/material.min.css);
