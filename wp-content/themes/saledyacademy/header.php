@@ -23,8 +23,8 @@
 		<meta property="og:description" content="<?php bloginfo('name'); ?>" />
         <meta property="og:title" content="<?php bloginfo('name'); ?>" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://www.saledymedia.com>" />
-        <meta property="og:image" content="http://www.saledymedia.com/wp-content/themes/uplabmedia/images/hero-img9.jpg" />
+        <meta property="og:url" content="<?php echo site_url(); ?>" />
+        <meta property="og:image" content="<?php echo site_url(); ?>/wp-content/themes/uplabmedia/images/hero-img9.jpg" />
     <?php } ?>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png"/>

@@ -9,7 +9,7 @@
                         <div class="col-sm-12">
                             <ul class="footer-brand-logo-section">
                                 <li>
-                                    <a href="#" class="footer-brand-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/UpGrad_red_logo.svg" alt=""/></a>
+                                    <a href="<?php echo site_url(); ?>" class="footer-brand-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/UpGrad_red_logo.svg" alt=""/></a>
                                     <p class="light-font">Professional Certification Programs Online</p>
                                 </li>
                             </ul>

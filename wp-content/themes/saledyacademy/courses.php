@@ -1,223 +1,229 @@
 <?php
 /**
- * The template for portfolio page.
+ * The template for Courses List page.
  *
  **/
  // Template Name: Courses
 ?>
 
 <?php get_header(); ?>
-<main id="program">
-    <section class="center-align no-pad-bot">
-        <h3 class="container">Cuemath is the only program that makes<br> every aspect of learning math engaging<br> and meaningful.</h3>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/cuemath-illustration.png"><br><br>
-        <a href="#" class="cta-btn btn-flat cuemath-yellow white-text" style="margin: 1rem 0;">FIND A CENTER</a>
-    </section>
-    <section id="program-learning-system" class="illustration">
-        <div class="row container">
-           <div class="col-sm-offset-1 col-sm-10">
-                <div>
-                    <h3 class="right-align hide-on-small-only" style="padding-right:3rem;">CUEMATH LEARNING SYSTEM</h3>
-                    <div class="info-container">
-                        <div>
-                            <h4 class="hide-on-med-and-up">CUEMATH LEARNING SYSTEM</h4>
-                            <p>Children are taken on a math adventure through a combination of worksheets, tab-based exercises and mathematical puzzle cards.<br><br>
-                                These aspects are brought together at a center near you, where a trained and certified teacher personally facilitates your child's learning.<br><br>
-                            Children benefit from the best of the offline as well as online worlds with three in-person sessions every week.</p>
-                        </div>
-                        <img alt="CUEMATH LEARNING SYSTEM" src="<?php echo get_template_directory_uri(); ?>/images/program-learning-system.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="divider"></div>
-    <section id="program-curriculum" class="illustration cuemath-grey">
-        <div class="row container">
-            <div class="col-sm-offset-1 col-sm-10">
-                <div>
-                    <h3 class="hide-on-small-only" style="padding-left:3rem;">CUEMATH CURRICULUM</h3>
-                    <div class="info-container">
-                        <div>
-                            <h4 class="hide-on-med-and-up">CUEMATH CURRICULUM</h4>
-                            <p>A research-backed curriculum that portrays math in a meaningful way and makes it relevant to your child.<br><br>
-                            Goes above and beyond what is covered in schools or any other math programs.<br><br>
-                            Covers concepts, builds mathematical aptitude and focusses on critical and analytical thinking.</p>
-                        </div>
-                        <img alt="CUEMATH CURRICULUM" src="<?php echo get_template_directory_uri(); ?>/images/program-curriculum.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="cta-btn btn-flat cuemath-yellow white-text">FIND A CENTER</a>
-    </section>
-    <div class="divider"></div>
-    <section id="cgb">
-        <div class="container">
-            <h3 class="center-align">CUEMATH GOES BEYOND<br>EVERY OTHER MATH PROGRAM</h3>
-            <br><br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="section1 center-align" style="border-color:#40c4ff;">
-                        <img alt="School math" src="<?php echo get_template_directory_uri(); ?>/images/school-math-illustration.png">
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="section2 center-align" style="border-color:#ffc000;">
-                        <img alt="Mental Aptitude" src="<?php echo get_template_directory_uri(); ?>/images/mental-aptitude-illustration.png">
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="section3 center-align" style="border-color:#909090;">
-                        <img alt="Creative Reasoning" src="<?php echo get_template_directory_uri(); ?>/images/creative-reasoning-illustration.png">
-                    </div>
-                </div>
-            </div>
 
-            <div id="program-school-math" class="illustration section">
+
+<body data-spy="scroll" class="course-page-body">
+    
+    <div id="bg" class="bg-product-management">
+        <?php get_template_part('menu'); ?>
+
+        <div class="upgrad-description">
+            <div class="heading-text">
+                <h1 class="text-center white-text bold-font text-uppercase">Tất cả khoá học</h1>
+
+                <br>
+                
+            </div>
+        </div>
+    </div>
+    <div class="boxed">
+        <section id="programs" class="courser-card-section">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-offset-1 col-sm-10">
-                        <div>
-                            <div class="info-container">
-                                <div>
-                                    <h4 class="hide-on-med-and-up">School Math</h4>
-                                    <p>Covers the entire curriculum of the CBSE, ICSE and State Boards. Also draws on the US Common Core, UK National and Singapore National Curricula.<br><br>
-                                Delivered through specially created workbooks that employ the active learning methodology.<br><br>
-                                At the end of each topic, there will be a tab-based assessment which helps guide the child's further learning.</p>
+                        <h2 class="light-font mb-1"></h2>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <a href="/digital-marketing/" data-courseName="Digital Marketing" data-cohort="December_2016" class="fb-dgtl-mrkt-view-details course-card-box">
+                                    <div class="course-card-wrapper">
+                                        <div class="course-card-image-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/images/course_card_dm.png" class="img-responsive"/></div>
+                                        <div class="course-card-content-wrapper">
+                                            <div class="row">
+                                                <div class="col-sm-8"><strong class="bold-font">Digital Marketing</strong>
+                                                    <p class="light-font">Learn how to strategise and execute marketing initiatives in the digital age</p>
+                                                </div>
+                                                <div class="col-sm-4"><span class="logo-text text-uppercase">certified by</span><img src="<?php echo get_template_directory_uri(); ?>/images/iamai_logo.jpg" class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="course-card-button-wrapper">
+                                            <div class="course-date">
+                                                <p><span class="bold-font">Starts:</span> December, 2016</p>
+                                            </div>
+                                            <div class="course-button">
+                                                <button type="button" data-courseName="Digital Marketing" data-cohort="December_2016" class="course-card-button fb-dgtl-mrkt-view-details">Know More<span class="arrow-forward"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <a href="/product-management/" data-courseName="Product Management" data-cohort="January_2017" class="course-card-box fb-pm-view-details">
+                                    <div class="course-card-wrapper">
+                                        <div class="course-card-image-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/images/course_card_pm.png" class="img-responsive"/></div>
+                                        <div class="course-card-content-wrapper"><strong class="bold-font">Product Management</strong>
+                                            <p class="light-font">Become a product manager - learn to build and grow world-class consumer products</p>
+                                        </div>
+                                        <div class="course-card-button-wrapper">
+                                            <div class="course-date">
+                                                <p><span class="bold-font">Starts:</span> January, 2017</p>
+                                            </div>
+                                            <div class="course-button">
+                                                <button type="button" data-courseName="Product Management" data-cohort="January_2017" class="course-card-button fb-pm-view-details">Know More<span class="arrow-forward"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <a href="/entrepreneurship/" data-courseName="Entrepreneurship" data-cohort="January_2017" class="course-card-box fb-ent-view-details">
+                                    <div class="course-card-wrapper">
+                                        <div class="course-card-image-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/images/course_card_swu.png" class="img-responsive"/></div>
+                                        <div class="course-card-content-wrapper"><strong class="bold-font">Entrepreneurship</strong>
+                                            <p class="light-font">Accelerate your Entrepreneurial journey with the right skills to create a sustainable business</p>
+                                        </div>
+                                        <div class="course-card-button-wrapper">
+                                            <div class="course-date">
+                                                <p><span class="bold-font">Starts:</span> January, 2017</p>
+                                            </div>
+                                            <div class="course-button">
+                                                <button type="button" data-courseName="Entrepreneurship" data-cohort="January_2017" class="course-card-button fb-ent-view-details">Know More<span class="arrow-forward"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <a href="/data-analytics/" data-courseName="Data Analytics" data-cohort="March_2017" class="course-card-box fb-da-view-details">
+                                    <div class="course-card-wrapper">
+                                        <div class="course-card-image-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/images/course_card_da.png" class="img-responsive"/></div>
+                                        <div class="course-card-content-wrapper">
+                                            <div class="row">
+                                                <div class="col-sm-8"><strong class="bold-font">Data Analytics</strong>
+                                                    <p class="light-font">Equip yourself with the right tools, knowledge and industry applications</p>
+                                                </div>
+                                                <div class="col-sm-4"><span class="logo-text text-uppercase">pg diploma by</span><img src="<?php echo get_template_directory_uri(); ?>/images/iiitb-logo.png" class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="course-card-button-wrapper">
+                                            <div class="course-date">
+                                                <p><span class="bold-font">Starts:</span> March 2017</p>
+                                            </div>
+                                            <div class="course-button">
+                                                <button type="button" data-courseName="Data Analytics" data-cohort="March_2017" class="course-card-button fb-da-view-details">Know More<span class="arrow-forward"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="course-card-wrapper">
+                                    <div class="course-card-image-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/images/course_card_ddm.png" class="img-responsive"/></div>
+                                    <div class="course-card-content-wrapper">
+                                        <div class="row">
+                                            <div class="col-sm-8"><strong class="bold-font">Data-Driven Management</strong>
+                                                <p class="light-font">Empower yourself to make smarter data-driven decisions instead!</p>
+                                            </div>
+                                            <div class="col-sm-4"><span class="logo-text text-uppercase">In Association with</span><img src="<?php echo get_template_directory_uri(); ?>/images/gramener.png" class="img-responsive"/></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="notify-me notify-me-box new-notify-me-box">
+                                                <form id="data-driven-management" data-cohort="December_2016" class="form-inline notify-me-form material">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-sm-6 notify-input-box-left">
+                                                                <input type="text" placeholder="Your email" name="email" class="form-control email-req notify-email"/>
+                                                            </div>
+                                                            <div class="col-sm-6 notify-input-box-right">
+                                                                <input type="text" placeholder="Your number" name="phoneNumber" class="form-control mobile-req"/>
+                                                            </div>
+                                                            <div class="col-sm-12">
+                                                                <button type="submit" class="btn btn-primary notify-me-button"> i’m interested</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div role="alert" class="alert success ajax-response hide"><a href="#" data-dismiss="alert" class="close">&times;</a><strong>Success!</strong> We will get in touch with you shortly.</div>
+                                                <div role="alert" class="alert failure ajax-response hide"><a href="#" data-dismiss="alert" class="close">&times;</a><strong>Error!</strong> Please try again.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="coming-soon-sticky-wrapper">
+                                        <p class="text-uppercase white-text">coming soon</p>
+                                    </div>
                                 </div>
-                                <img alt="School math" src="<?php echo get_template_directory_uri(); ?>/images/program-school-math.png">
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="course-card-wrapper">
+                                    <div class="course-card-image-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/images/course_card_dtm.png" class="img-responsive"/></div>
+                                    <div class="course-card-content-wrapper">
+                                        <div class="row">
+                                            <div class="col-sm-12"><strong class="bold-font">Digital Technology Management</strong>
+                                                <p class="light-font">10 month PG diploma program to help you understand the underlying principles of digital technologies</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="notify-me notify-me-box new-notify-me-box">
+                                                <form id="digital-technology-management" data-cohort="Feb_2017" class="form-inline notify-me-form material">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-sm-6 notify-input-box-left">
+                                                                <input type="text" placeholder="Your email" name="email" class="form-control email-req notify-email"/>
+                                                            </div>
+                                                            <div class="col-sm-6 notify-input-box-right">
+                                                                <input type="text" placeholder="Your number" name="phoneNumber" class="form-control mobile-req"/>
+                                                            </div>
+                                                            <div class="col-sm-12">
+                                                                <button type="submit" class="btn btn-primary notify-me-button"> i’m interested</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div role="alert" class="alert success ajax-response hide"><a href="#" data-dismiss="alert" class="close">&times;</a><strong>Success!</strong> We will get in touch with you shortly.</div>
+                                                <div role="alert" class="alert failure ajax-response hide"><a href="#" data-dismiss="alert" class="close">&times;</a><strong>Error!</strong> Please try again.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="coming-soon-sticky-wrapper">
+                                        <p class="text-uppercase white-text">coming soon</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div id="program-mental-aptitude" class="illustration section">
+        </section>
+        <section id="testimonials" class="homepage-testimonials hidden-xs">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-offset-1 col-sm-10">
-                        <div class="info-container">
-                            <div>
-                                <h4 class="hide-on-med-and-up">Mental Aptitude</h4>
-                                <p>Builds mathematical thinking by improving verbal, non-verbal, logical and calculation skills.<br><br>
-                                Structured as a series of game-like tab based exercises that students have to master.<br><br>
-                                Mastering each skill requires increasing level of accuracy and proficiency.</p>
+                        <h2 class="light-font"> UpGrad Community</h2>
+                        <div id="course-testimonials" >
+                            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/images/testimonila-banner-romil-jain.png"/>
+                                <div class="testimonial-desc">
+                                    <blockquote class="bold-font">StartUp with UpGrad helped me think through all aspects of building a technology product and establishing a business</blockquote>
+                                    <p class="user-name">Romil Jain</p><span class="user-desingation">Founder - Gentclub.in</span><a href="#" type="button" data-toggle="modal" data-target="#courseVideoModal" data-video-id="cIw-7fnyxI8" class="btn main-button testimonial-button"><span class="glyphicon glyphicon-play"></span>View Story</a></div>
                             </div>
-                            <img alt="Mental Aptitude" src="<?php echo get_template_directory_uri(); ?>/images/program-mental-aptitude.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="program-creative-reasoning" class="illustration section">
-                <div class="row">
-                    <div class="col-sm-offset-1 col-sm-10">
-                        <div class="info-container">
-                            <div>
-                                <h4 class="hide-on-med-and-up">Creative Reasoning</h4>
-                                <p>Develops out-of-the-box thinking through mathematical puzzles. Helps build connections between different domains of math and real life.<br><br>
-                                At the end of each session, a card with a puzzle on it is assigned to your child.<br><br>
-                                He/She will be encouraged to work on it collaboratively with friends, parents and siblings.</p>
+                            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/images/testimonila-banner-pranav-marwah.png" />
+                                <div class="testimonial-desc">
+                                    <blockquote class="bold-font">The video bank helped me understand the success and failure stories of reputed entrepreneurs at an early stage. Which also helped me hone my skills.</blockquote>
+                                    <p class="user-name">Pranav Marwah</p><span class="user-desingation">Founder - ThinQbate</span><a href="#" type="button" data-toggle="modal" data-target="#courseVideoModal" data-video-id="d8Hy7ZXE2ko" class="btn main-button testimonial-button"><span class="glyphicon glyphicon-play"></span>View Story</a></div>
                             </div>
-                            <img alt="Creative Reasoning" src="<?php echo get_template_directory_uri(); ?>/images/program-creative-reasoning.png">
+                            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/images/testimonila-banner-subha-chandrasekaran.png"/>
+                                <div class="testimonial-desc">
+                                    <blockquote class="bold-font">This program offers interactions with a lot of people you were reading about.</blockquote>
+                                    <p class="user-name">Subha Chandrasekaran</p><span class="user-desingation">Founder - RainKraft</span><a href="#" type="button" data-toggle="modal" data-target="#courseVideoModal" data-video-id="eB2KjSR2ZEw" class="btn main-button testimonial-button"><span class="glyphicon glyphicon-play"></span>View Story</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <a href="/parent/signup/" class="cta-btn btn-flat cuemath-yellow white-text">FIND A CENTER</a>
-    </section>
-
-    <section id="program-cueparent" class="illustration cuemath-grey">
-        <div class="row container">
-            <div class="col-sm-offset-1 col-sm-10">
-                <div>
-                    <h3 class="right-align hide-on-small-only" style="padding-right:3rem;">CUEPARENT APP</h3>
-                    <div class="info-container">
-                        <div>
-                            <h4 class="hide-on-med-and-up">CUEPARENT APP</h4>
-                            <p>Designed to help you take active part in your child's learning.<br><br>
-                            Track their math adventure and help them build on their strengths and work on their weaknesses.<br><br>
-                            Get access to puzzles, questions and other math resources to help build a mathematical bond with your child.</p>
-                        </div>
-                        <img alt="Cueparent App" src="<?php echo get_template_directory_uri(); ?>/images/program-cueparent.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="cta-btn btn-flat cuemath-yellow white-text">FIND A CENTER</a>
-    </section>
-    <div class="divider"></div>
-    <section id="program-teachers" class="illustration">
-        <div class="row container">
-            <div class="col-sm-offset-1 col-sm-10">
-                <div>
-                    <h3 class="hide-on-small-only" style="padding-left:3rem;">CUEMATH TEACHERS</h3>
-                    <div class="info-container">
-                        <div>
-                            <h4 class="hide-on-med-and-up">CUEMATH TEACHERS</h4>
-                            <p>
-                            <strong>Educated</strong><br>
-                             We only accept applications of individuals from well-educated background.<br><br>
-                             <strong>Trained</strong><br>
-                            Cuemath teachers undergo an intensive training program to ensure that they deliver the best education.<br><br>
-                            <strong>Certified</strong><br>
-                            Only after excelling in the training process are the teachers certified to teach the Cuemath program.
-                            </p>
-                        </div>
-                        <img alt="CUEMATH TEACHERS" src="<?php echo get_template_directory_uri(); ?>/images/program-teachers.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="faqs" class="container">
-        <h3 class="center-align">FAQs</h3>
-        <h5 class="center-align">Still not convinced? Wish to know more<br> about the Cuemath program? Please go through the frequently asked questions.</h5>
-        <br>
-                
-        <div class="item-container">
-            <div class="row">
-                <div class="col-xs-1 center-align"><i class="material-icons cuemath-yellow-text">chat_bubble</i></div>
-                <div class="col-xs-11">What is the duration of the program?</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-offset-1 col-xs-11"><p class="answer" style="font-weight:300;">The Cuemath program runs through the year and caters to students in every grade from K through 8. Each Cuemath student attends three 1-hour sessions a week. But given the flexibility of our program, it adapts itself to the student's pace rather than moulding the student to fit its predetermined boundaries.</p></div>
-            </div>
-        </div>
-                
-        <div class="item-container">
-            <div class="row">
-                <div class="col-xs-1 center-align"><i class="material-icons cuemath-yellow-text">chat_bubble</i></div>
-                <div class="col-xs-11">How many students are there in a Cuemath session?</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-offset-1 col-xs-11"><p class="answer" style="font-weight:300;">There are at most 8 students in a group. It is our wish to ensure that every one of our students is able to ask for and get "personal attention".</p></div>
-            </div>
-        </div>
-                
-        <div class="item-container">
-            <div class="row">
-                <div class="col-xs-1 center-align"><i class="material-icons cuemath-yellow-text">chat_bubble</i></div>
-                <div class="col-xs-11">Does Cuemath provide any assessments to the students?</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-offset-1 col-xs-11"><p class="answer" style="font-weight:300;">Yes, periodic assessments are part of the program. However, the intention of these assessments is not simply to "pass" or "fail" students, but rather to give the teacher enough information to help guide the student's learning. Additionally, all progress reports are shared with the parents who are encouraged to approach the teacher with their questions or suggestions.</p></div>
-            </div>
-        </div>
-                
-        <div class="item-container">
-            <div class="row">
-                <div class="col-xs-1 center-align"><i class="material-icons cuemath-yellow-text">chat_bubble</i></div>
-                <div class="col-xs-11">How is Cuemath different from home based tuitions?</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-offset-1 col-xs-11"><p class="answer" style="font-weight:300;">We wish to emphasize that Cuemath is not a tuition. Instead, it is an (after-school) math-learning programme. In consequence, while home-based tuitions focus primarily on the school syllabus (or syllabi) and preparing students for their tests and exams, Cuemath's eye is fixed firmly on the long-term holistic development of a child's mathematical ability.</p></div>
-            </div>
-        </div>
-                
-        <h5 class="center-align"><a href="#" class="grey-text" style="text-decoration: underline;">View More</a></h5><br>
-        <h4 class="center-align">Join us in our endeavour to make every<br> kid smarter at math. Enroll your child now.</h4>
-    </section>
-</main>
-
+        </section>
+        
+    </div>    
 <?php get_footer(); ?>
